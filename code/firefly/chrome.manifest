@@ -1,0 +1,5 @@
+resource    firefly     resource/
+
+content     firefly     content/
+
+overlay chrome://browser/content/browser.xul  chrome://firefly/content/overlay.xul

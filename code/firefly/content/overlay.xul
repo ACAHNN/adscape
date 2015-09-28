@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+
+<overlay id="firefly-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="overlay.js" />
+
+  <menubar id="main-menubar">
+    <menu id="firefly-menu" label="cao maco"
+      accesskey="H" insertafter="helpMenu">
+      <menupopup>
+        <menuitem id="firefly-menu-item"
+          label="Di si frende"
+          accesskey="l"
+          oncommand="window.alert('staima');" />
+      </menupopup>
+    </menu>
+  </menubar>
+</overlay>
