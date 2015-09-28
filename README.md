@@ -11,10 +11,10 @@ Browser:	Firefox version 41.0
 Python:			Python 2.7
 Status:			       Success
 
-Installed Packages (commands):
+Installed Packages (commands to setup environment):
 	  $> sudo apt-get install firefox, python-pip, python-dev, build-essential, xvfb, emacs
 	  $> sudo pip install pyvirtualdisplay
-
+	  $> git clone https://github.com/ACAHNN/adscape.git
 Code Base:
      cube.py (main logic loop)
      adblock.py (ad detection algorithm)
